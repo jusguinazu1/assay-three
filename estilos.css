@@ -1,6 +1,7 @@
 body{
     font-family: 'Uchen', serif;
-    margin: 0px;
+    margin: 0px;    
+    background-color: #ecebe6;
 }
 p {
     font-size: 20px;
@@ -79,3 +80,50 @@ h3{
 #parrafo-boton p {
     color:black;
 }
+#parrafo-boton a {
+    display: inline-block;
+}
+/*servicios*/
+
+.contenedorser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicios{
+    width: 35%;
+    padding: 32px;    
+    border-radius: 10px;
+    margin-bottom: 40px;
+    
+}
+.blanco{
+    background-color: blanchedalmond;
+    color: black;
+}
+.celeste{
+    background-color: cornflowerblue;
+    color: white;
+}
+.servicios h4{
+    font-size: 30px;
+}
+.blanco p {
+    color: black;
+    font-size: 20px;
+}
+.celeste p{
+    color: white;
+    font-size: 20px;
+}
+.servicios img{
+    float: right;
+}
+#tituloservicio{
+    padding: 0px;
+    margin: 40px;
+    font-size: 55px;
+    font-weight: normal;
+}
+
