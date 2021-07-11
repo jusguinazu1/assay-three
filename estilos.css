@@ -57,9 +57,10 @@ header{
     width: 90%;
     margin: auto;
 }
-/*section*/
+/*sobremi*/
 #partedos{
-    background-color: #ecebe6;
+ margin: 50px;   
+ padding-bottom: 50px;
 }
 #seccion{
     display: flex;
@@ -84,7 +85,9 @@ h3{
     display: inline-block;
 }
 /*servicios*/
-
+#partetres{
+    margin: 30px;
+}
 .contenedorser{
     display: flex;
     flex-wrap: wrap;
@@ -126,4 +129,32 @@ h3{
     font-size: 55px;
     font-weight: normal;
 }
-
+/*por que trabajar with me*/
+.contenedorpor{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+#tituloporque{
+    padding: 0px;
+    margin: 40px;
+    font-size: 55px;
+    font-weight: normal;
+    text-align: center;
+}
+.razon h4{
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+.razon p {
+    font-size: 13px;
+    line-height: 20px;    
+}
+.razon{
+    margin: 15px;
+}
+#partecuatro{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
